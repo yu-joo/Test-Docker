@@ -10,7 +10,7 @@ Dockerfile은 Docker 컨테이너의 기반이되는 Docker 이미지 구성정�
  
 Usage
 ------
-    $ docker pull yu-joo/Test-Docker
+    $ docker pull formfoxk/test-docker
 
 
 ### Docker 공식 사이트  
