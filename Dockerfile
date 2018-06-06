@@ -5,7 +5,7 @@ FROM centos:7
 MAINTAINER 0.1 yujoo@mail.com
 
 # 3.Apache HTTP Server 설치 
-RUN yum -y install httpd
+RUN ["yum" , "-y" , "install" , "httpd"]
 
 # 4.Web 컨텐츠
 ADD html/ /var/www/html/
